@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Creating Tables with CSS</title>
+  <meta name="description" content="Creating Tables with CSS">
+  <meta name="author" content="Bernadette Asoanab">
+
+  <link rel="stylesheet" href="tablestyles.css">
+ <!--Bernadette Asoanab
+IFT 301
+1/26/2021-->
+
+</head>
+
+<body>
+  <script src="js.js"></script>
+  <h1>Creating Tables with CSS</h1>
+  <table class="one">
+    <tr>
+      <th scope="col">Movie Title</th>
+      <th scope="col">Price</th>
+    </tr>
+    <tr>
+        <td>The Jungle Book</td>
+        <td>$22.96</td>
+    </tr>
+    <tr>
+        <td>Marval's Captain America: Civil War</td>
+        <td>$22.99</td>
+    </tr>
+    <tr>
+        <td>Star Wars: The Force Awakens</td>
+        <td>$29.96</td>
+    </tr>
+  </table>
+  <hr>
+  <table class="two">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Author</th>
+        <th scope="col">Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A Soldier's Duty</td>
+        <td>Jean Johnson</td>
+        <td rowspan="3">Science Fiction</td>
+      </tr>
+      <tr>
+        <td>Dragonflight</td>
+        <td>Anne McCaffery</td>
+      </tr>
+      <tr>
+        <td>Dawn</td>
+        <td>Octavia Butler</td>
+      </tr>
+      <tr>
+        <td>The Other Princess</td>
+        <td>Christe M. Butler</td>
+        <td rowspan="2">Romance</td>
+      </tr>
+      <tr>
+        <td>Outlander</td>
+        <td>Diana Galbadon</td>
+      </tr>
+      <tr>
+        <td>The Wheel of Time</td>
+        <td>Robert Jordan</td>
+        <td>Fantasy</td>
+      </tr>
+      <tr>
+        <td>Moon Called</td>
+        <td>Patricia Briggs</td>
+        <td>Urban Fantasy</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Angel's Blood</td>
+        <td>Nalini Singh</td>
+        <td>Romance/Urban Fantasy</td>
+      </tr>
+    </tfoot>
+  </table>
+ </body>
+</html>

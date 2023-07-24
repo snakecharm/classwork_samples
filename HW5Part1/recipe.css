@@ -1,0 +1,40 @@
+html{
+    background-color: blanchedalmond;
+}
+body{
+    width: 75%;
+   margin: auto;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    margin: auto;
+    width: 125px;
+}
+
+th{
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: auto;
+    background-color: rgb(185, 130, 48);
+}
+
+tr{
+    text-align: left;
+}
+
+ol{
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+h1{
+    border: 2px outset black;
+    width: 700px;
+    margin: 50px auto;
+    color: rgba(39, 80, 114, 0.836);
+    background-color: rgb(185, 130, 48);
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>ASU Payment Form</title>
+  <meta name="description" content="ASU Payment Form">
+  <meta name="author" content="Bernadette Asoanab">
+
+  <link rel="stylesheet" href="formstyles.css">
+  <!--Bernadette Asoanab
+IFT 301
+1/30/2021-->
+
+</head>
+
+<body>
+
+  <img src="asuTransparent.png" alt="ASU Logo">
+  <h2>Payment Form</h2>
+  <h3>All fields are REQUIRED</h3>
+  <form name="validator" onsubmit="return validate()" method="POST">
+    <div>
+      <label for="fname" class="title">First Name</label>
+      <input type="text" id="fname" name="fname">
+    </div>
+    <div id="fnerror">
+      Error: Name cannot be blank or over 25 letters
+    </div>
+    <div>
+      <label for="lname" class="title">Last Name</label>
+      <input type="text" id="lname" name="lname">
+    </div>
+    <div id="lnerror">
+      Error: Name cannot be blank or over 25 letters
+    </div>
+    <div>
+      <label for="fname" class="title">Street Address</label>
+      <input type="text" id="saddress" name="saddress">
+    </div>
+    <div>
+      <label for="fname" class="title">City</label>
+      <input type="text" id="city" name="city">
+    </div>
+    <div>
+      <label for="fname" class="title">State</label>
+      <input type="text" id="state" name="state">
+    </div>
+    <div>
+      <label for="fname" class="title">Zip Code</label>
+      <input type="text" id="zipcode" name="zipcode">
+    </div>
+    <p>
+      Credit Card Type <br>
+      <input type="radio" name="RDO1,2,3" value="MasterCard"> MasterCard <br>
+      <input type="radio" name="RDO1,2,3" value="VISA"> VISA <br>
+      <input type="radio" name="RDO1,2,3" value="Discover"> Discover <br>
+    </p>
+    <div>
+      <label for="ccnmber" class="title">Credit Card Number</label>
+      <input type="password" id="ccnmber" name="ccnmber">
+    </div>
+    <div id="ccerror">
+      Error: Card is not 16 digits
+    </div>
+    <p>
+      Expiration Date
+      <select class="year" name="SYear" id="Year">
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+      </select>
+      <select class="month" name="SMonth" id="Month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+    </p>
+    <p class="textarea">Special Notes</p>
+    <textarea name="TXTCom" id="Comments" cols="30" rows="8">Enter notes here...</textarea>
+    <br>
+    <input type="submit" value="Submit Payment">
+  </form>
+  <script src="validators.js"></script>
+</body>
+
+</html>

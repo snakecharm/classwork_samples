@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>About Me</title>
+  <meta name="description" content="About Me">
+  <meta name="author" content="Bernadette Asoanab">
+
+  <link rel="stylesheet" href="styles.css">
+  <!--Bernadette Asoanab
+IFT 301
+1/31/2021-->
+
+</head>
+
+<body>
+  <div class="Header">
+    <h1>About Me</h1>
+    <h2 class="pagelinks">
+      <a href="index.html">Home</a> | <a href="reviews.html">Reviews</a> | <a href="authors.html">Recommended
+        Authors</a> |
+      About Me
+    </h2>
+  </div>
+  <div class="mainbody">
+    <img class="bio" src="books.jpg" alt="Stock image of books">
+    <h3>Short Bio</h3>
+    <p>
+      I am a lifelong bibleophile and always have a book or Kindle in my hand.
+      When not reading I also enjoy playing video games, especially Final Fantasy XIV.
+    </p>
+    <p>
+      If you have a book for me to review or an author to recommend please use the form below.
+    </p>
+    <form name="contact" onsubmit="return validation()" method="POST">
+      <fieldset>
+        <p>Name: <input type="text" id="Name" name="Name"></p>
+        <p id="nError">Error: Name cannot be blank</p>
+        <p>Email: <input type="text" name="Email"></p>
+        <p id="mError">Error: Email not valid</p>
+        <p>Comments: <textarea name="Comments" id="Comments" cols="30" rows="10">Enter comments here...</textarea></p>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+  <script src="milestone.js"></script>
+</body>
+
+</html>

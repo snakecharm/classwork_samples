@@ -1,0 +1,66 @@
+body{
+    background-color: aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.border{
+    width: 70%;
+    height: 900px;
+    position: absolute;
+    padding-left: 150px;
+    left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    border:2px solid olive;
+    width: 600px;
+    margin: 20px 300px;
+}
+
+div{
+    margin: auto;
+    width: 350px;
+    height: 750px;
+    border: 2px solid darkred;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cardstyle{
+    box-shadow: 5px 5px 2px darkslateblue;
+    background-image: url("images/cardbackground.png");
+}
+
+.bio{
+    width: 60px;
+    height: 70px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    background-color: darkviolet;
+    color: floralwhite;
+    padding-bottom: 5px;
+}
+
+.image{
+    height: 300px;
+    width: auto;
+    border: none;
+}
+
+p{
+    font-weight: bold;
+}
+
+#site{
+    border: none;
+    margin: 15px 385px;
+    width: fit-content;
+    height: fit-content;
+}

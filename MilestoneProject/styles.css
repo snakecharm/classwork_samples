@@ -1,0 +1,187 @@
+html{
+    background-color: lightblue;
+    background-image: -moz-linear-gradient(lightblue, white);
+    background-attachment: fixed;
+   
+}
+
+
+body{
+    font-family: fantasy;
+   
+    height: 100%;
+}
+
+body.review{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.authors{
+    margin-bottom: 500px;
+}
+
+h3{
+    color: maroon;
+}
+
+table{
+    width: 400px;
+}
+
+th{
+    text-align: left;
+}
+img.book{
+    float: left;
+    margin: 10px auto;
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+fieldset{
+    width: 300px;
+    border: hidden;
+}
+
+p.review{
+    width: 800px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 25px;
+    text-align: left;
+}
+
+h4.review{
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}div{
+    
+    width: 1300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+div.selector{
+    height: 200px;
+    margin: 50px;
+}
+
+.Header{
+    height: 100px;
+    width: 1300px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+    padding: 20px 50px;
+    border: 3px outset rosybrown;
+    background-image: url("background.png");
+}
+
+div.mainbody{
+    border: 2px solid slategray;
+    box-shadow: 3px 3px 3px slategray;
+    width: 70%;
+    height: 100%;
+    background-image: url("004-Fantasy-Paper.png");
+}
+
+.reviewbody{
+    border: 2px solid slategray;
+    box-shadow: 3px 3px 3px slategray;
+    width: 70%;
+    height: 400px;
+    background-image: url("004-Fantasy-Paper.png");
+}
+
+#choice1{
+    display: none;
+    border: 2px solid slategray;
+    box-shadow: 3px 3px 3px slategray;
+    width: 70%;
+    height: 400px;
+    background-image: url("004-Fantasy-Paper.png");
+}
+
+#choice2{
+    display: none;
+}
+
+#choice3{
+    display: none;
+}
+
+#choice4{
+    display: none;
+}
+
+#choice5{
+    display: none;
+}
+
+#choice6{
+    display: none;
+}
+
+.tableheader{
+    text-align: center;
+}
+
+.romancetable{
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 60px;
+    float: left;
+    border: 4px groove lavender;
+}
+
+.scifitable{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    border: 4px groove lavender;
+}
+
+.fantasytable{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    border: 4px groove lavender;
+}
+
+th, td{
+    width: 200px;
+}
+th.main{
+    font-size: larger;
+    font-weight: bolder;
+    color: chocolate;
+}
+
+p.recommends{
+    text-align: center;
+}
+
+img.bio{
+    float: left;
+    margin: 10px 10px;
+}
+
+#nError{
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
+#mError{
+    display: none;
+    color: red;
+    font-weight: bold;
+}

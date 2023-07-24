@@ -1,0 +1,50 @@
+h3 {
+    color: red;
+}
+body{
+    background-color: gold;
+}
+
+form {
+    width: 400px;
+ 
+}
+label{
+    width: 50%;
+    text-align: left;
+}
+input{
+  
+    float: left;
+  
+}
+p{
+    width: 300px;
+}
+.text {
+    float: right;
+    width: 150px;
+   
+    
+}
+
+.style{
+    width: 150px;
+}
+
+
+.month{
+    
+    float: right;
+
+}
+.year{
+
+    float: right;
+}
+
+textarea{
+   margin-left: 25px;
+    float: right;
+    
+}

@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(255, 200, 80);
+}
+
+h1{
+    width: 500px;
+    margin: 100px auto 30px auto;
+    text-align: center;
+    border-bottom: 10px groove aqua;
+    padding-bottom: 15px;
+    font-family: monospace;
+    font-size: 300%;
+    color: forestgreen;
+}
+
+video{
+    width: auto;
+    margin-left: 25%;
+    border: 3px outset cornflowerblue;
+    padding: 5px;
+}
+
+p{
+    width: 450px;
+    text-align: center;
+    margin-right: 400px;
+    border-right: 8px double darkturquoise;
+    padding: 5px;
+    font-size: 130%;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(4, 99, 4);
+    float: right;
+}
